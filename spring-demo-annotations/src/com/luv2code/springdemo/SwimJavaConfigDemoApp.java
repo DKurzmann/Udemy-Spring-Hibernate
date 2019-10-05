@@ -16,7 +16,7 @@ public class SwimJavaConfigDemoApp {
 		
 		// call method to get the daily fortunein
 		System.out.println(theCoach.getDailyFortune());
-		//close the context
+		//close the context  
 		context.close();
 	}
 
