@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class AnnotationDemoApp {
 
 	public static void main(String[] args) {
-		// read spring config file
+		// read spring config file 
 		AnnotationConfigApplicationContext context =
 				new AnnotationConfigApplicationContext(SportConfig.class);
 		//get bean from spring container
